@@ -1,5 +1,7 @@
 # FPGA Serial Protocol Analyzer
 
+[![tests](https://github.com/Wahid-y06/fpga-serial-protocol-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/Wahid-y06/fpga-serial-protocol-analyzer/actions/workflows/tests.yml)
+
 A Verilog logic analyzer that passively listens to **UART, SPI and I2C**
 buses at the same time, decodes the traffic in hardware, timestamps every
 event and stores it in a triggerable ring buffer. When a trigger condition
